@@ -8,7 +8,7 @@ The Stability Quad framework was developed during the C12orf29/IBAM project to p
 
 Although developed for the IBAM project, the workflow is applicable to other binary protein interfaces generated from molecular dynamics trajectories.
 
----
+
 ## Output
 
 **Stability Quad** (2×2 composite PNG):
@@ -28,14 +28,14 @@ python stability_plot_script.py --species "Ciona intestinalis"
 ```
 
 The script will prompt for a species name interactively if `--species` is not provided. The species name appears in the Stability Quad title.
----
+
 ## Example Data
 
 The canonical example output figure is included in this repository.
 
 Due to GitHub file-size limitations, the associated molecular dynamics trajectory assets are maintained separately in the corresponding Zenodo archive rather than bundled directly with the repository.
 
----
+
 ## Key options
 
 | Flag | Default | Description |
@@ -63,7 +63,7 @@ Handles 10, 50, 100 ns and greater trajectories without difficulty on modest har
 
 The script expects GROMACS segid naming: `seg_0_Protein_chain_A` (IBAM) and `seg_1_Protein_chain_B` (MyT). If your topology uses different segment identifiers, adjust `sel_c12` and `sel_myt` near line 214.
 
----
+
 
 ## Author
 
@@ -75,7 +75,7 @@ Independent researcher, Bodø, Norway.
 PhD in Molecular Biology, Queensland University of Technology (QUT).
 
 
-
+---
 
 
 ## Example output
