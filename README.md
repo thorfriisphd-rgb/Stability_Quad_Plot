@@ -53,7 +53,8 @@ Due to GitHub file-size limitations, the associated molecular dynamics trajector
 - Python 3.8+
 - MDAnalysis
 - NumPy, Pandas, Matplotlib
----
+
+
 ## Performance
 
 Handles 10, 50, 100 ns and greater trajectories without difficulty on modest hardware. Use `--stride` to downsample large trajectories if needed.
