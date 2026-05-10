@@ -9,5 +9,5 @@ in:
 
 ../example_output/
 
-Please obtain the trajectory assets from the associated Zenodo dataset before
+Please obtain the trajectory assets from the associated Zenodo archive before
 running the example workflow locally.
