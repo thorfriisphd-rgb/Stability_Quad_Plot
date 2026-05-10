@@ -58,7 +58,7 @@ Due to GitHub file-size limitations, the associated molecular dynamics trajector
 ## Performance
 
 Handles 10, 50, 100 ns and greater trajectories without difficulty on modest hardware. Use `--stride` to downsample large trajectories if needed.
----
+
 ## Note on chain selection
 
 The script expects GROMACS segid naming: `seg_0_Protein_chain_A` (IBAM) and `seg_1_Protein_chain_B` (MyT). If your topology uses different segment identifiers, adjust `sel_c12` and `sel_myt` near line 214.
