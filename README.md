@@ -78,6 +78,6 @@ PhD in Molecular Biology, Queensland University of Technology (QUT).
 ---
 
 
-## Example output
+### Example output
 
 ![Stability Quad — Ciona intestinalis](example_output/Ciona_10ns_cutoff_md_StabilityQuad.png)
