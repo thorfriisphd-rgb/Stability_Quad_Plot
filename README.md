@@ -29,6 +29,13 @@ python stability_plot_script.py --species "Ciona intestinalis"
 
 The script will prompt for a species name interactively if `--species` is not provided. The species name appears in the Stability Quad title.
 
+## Example Data
+
+The canonical example output figure is included in this repository.
+
+Due to GitHub file-size limitations, the associated molecular dynamics trajectory assets are maintained separately in the corresponding Zenodo archive rather than bundled directly with the repository.
+
+
 ## Key options
 
 | Flag | Default | Description |
